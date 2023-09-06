@@ -1,0 +1,25 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    text-align: center;
+    align-items: center;
+    height: 25rem;
+    width: 15rem;
+    margin-top: 1rem !important;
+
+}
+
+.card img{
+    width: auto;
+    padding: 5px;
+    max-width: 90%;
+    max-height: 180px;
+}
+
+.card-body{
+    justify-content: flex-end;
+    padding: 5px !important;
+    display: flex;    
+    flex-direction: column;
+}
